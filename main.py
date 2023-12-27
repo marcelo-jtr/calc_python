@@ -39,6 +39,8 @@ btn_2.grid(row=2, column=2)
 btn_3 = tk.Button(tela, text="3", command=lambda: add_calculo(3), width=5, font=("Arial", 24))
 btn_3.grid(row=2, column=3)
  
+# TODO: fix the buttons
+
 btn_1 = tk.Button(tela, text="1", command=lambda: add_calculo(1), width=5, font=("Arial", 24))
 btn_1.grid(row=2, column=1)
  
